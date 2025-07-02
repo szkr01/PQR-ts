@@ -2,8 +2,8 @@ import "./global.d.ts"
 import {GUI} from "lil-gui"
 import {draw,setup,preload,resize} from "./index"
 
+
 window.onload=() => {
-	// lil-guiをグローバルに設定
 	// @ts-ignore
 	window.gui=new GUI()
 
